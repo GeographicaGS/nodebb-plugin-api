@@ -1,0 +1,12 @@
+{
+	"id": "nodebb-plugin-api",
+	"name": "NodeBB plugin API",
+	"description": "NodeBB plugin API",
+	"url": "https://github.com/GeographicaGS/nodebb-plugin-api",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:admin.header.build", "method": "addMenuItem" }
+	],
+	"templates": "./templates"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "nodebb-plugin-api",
+  "version": "0.0.1",
+  "description": "NodeBB Writable API",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeographicaGS/nodebb-plugin-api.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "saml",
+    "simple saml2 php",
+    "sso",
+    "single sign on",
+    "registration"
+  ],
+  "author": {
+    "name": "Alberto Asuero",
+    "email": "alberto.asuero@geographica.gs"
+  },
+  "license": "apache",
+  "bugs": {
+    "url": "https://github.com/GeographicaGS/nodebb-plugin-api/issues"
+  },
+  "readme": "#",
+  "readmeFilename": "README.md",
+  "dependencies": {
+      "MD5" : "1.2.1"
+  },
+  "homepage": "https://github.com/GeographicaGS/nodebb-plugin-api.git",
+  "_id": "nodebb-plugin-api@0.0.1"
+}

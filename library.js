@@ -33,7 +33,9 @@
 		    });
 
 			var Categories = require("./categories.js");
-			Categories.init(app);	
+			var Topics = require("./topics.js");
+			Categories.init(app);
+			Topics.init(app);
 		}
 		else{
 			console.error("No config values specified, please complete config info at /admin/plugins/api");

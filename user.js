@@ -12,8 +12,6 @@ User.init = function(app){
         coreUser.getUidByUserslug(req.params.slug, function(err, uid){
             if(!err){
                 coreUser.getUserData(uid, function(err, userdata){
-                    /*res.header("Access-Control-Allow-Origin", "*");
-                    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");*/
                     res.status(200).json(userdata);
                 });            
             }else{

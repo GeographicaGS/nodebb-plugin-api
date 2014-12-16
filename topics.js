@@ -21,8 +21,7 @@ Topics.init = function(app){
     */
     app.post(this.baseURL,auth,function(req, res, next){
 
-        if (!req.body.uid || !req.body.title || !req.body.content
-            || !req.body.cid ){
+        if (!req.body.uid || !req.body.title || !req.body.content || !req.body.cid ){
 
             res.status(400).json({
                 message: "Bad parameters",
